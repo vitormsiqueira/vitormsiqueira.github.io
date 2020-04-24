@@ -1,3 +1,3 @@
-# vitormsiqueira.github.io
+vitormsiqueira.github.io
 
-My Personal Website
+# My Personal Website
