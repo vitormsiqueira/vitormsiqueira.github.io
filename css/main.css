@@ -4,32 +4,52 @@
 }
 
 body {
-    background-color: #181717;
+    background-color: #14181d;
     width: 100%;
     height: 100%;
 }
 
-.menu-principal {
+.header-1 {
+    /* background-color: pink; */
     width: 100%;
-    height: 53px;
+    height: 60px;
 }
 
-.menu ul li {
+.logo-hex {
+    /* background-color: purple; */
     display: inline-block;
     float: left;
-    width: 10%;
+    padding-left: 25px;
+    /* width: 4%; */
+    /* padding: 16px; */
+}
+
+.logo-hex img {
+    max-width: 55px;
+    max-height: 55px;
+    width: auto;
+    height: auto;
 }
 
 .logo-nome ul li {
     display: inline-block;
     float: left;
-    width: 25%;
-    size: 10%;
+    /* width: 25%;
+    size: 10%; */
+}
+
+.logo-nome img {
+    max-height: 35px;
+    padding-left: 25px;
+    padding-top: 14px;
+    height: auto;
+    width: auto;
+    padding-right: 30px;
+    /* padding: 16px; */
 }
 
 .icons-redes-sociais {
     vertical-align: middle;
-    max-width: auto;
     text-align: center;
 }
 
@@ -55,4 +75,16 @@ body {
 .content-links a:hover {
     color: #6fe66c;
     /* background-color: black; */
+}
+
+.idioma {
+    display: inline-block;
+    padding: 16px;
+}
+
+.idioma a {
+    background-color: #6fe66c;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
 }
