@@ -38,4 +38,20 @@ body {
     float: left;
     width: 3%;
     position: relative;
+    padding: 10px;
+}
+
+.content-links {
+    display: inline-block;
+    padding: 16px;
+}
+
+.content-links a {
+    color: #6fe66c;
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+.content-links a:hover {
+    color: white;
 }
