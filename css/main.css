@@ -5,14 +5,18 @@
 
 body {
     background-color: #14181d;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
+}
+
+main {
+    /* width: 980px; */
 }
 
 .header-1 {
-    /* background-color: pink; */
+    background-color: pink;
     width: 100%;
-    height: 60px;
+    height: 56px;
 }
 
 .logo-hex {
@@ -20,22 +24,20 @@ body {
     display: inline-block;
     float: left;
     padding-left: 25px;
-    /* width: 4%; */
+    width: 5%;
     /* padding: 16px; */
 }
 
 .logo-hex img {
     max-width: 55px;
     max-height: 55px;
-    width: auto;
     height: auto;
 }
 
 .logo-nome ul li {
     display: inline-block;
     float: left;
-    /* width: 25%;
-    size: 10%; */
+    width: 20%;
 }
 
 .logo-nome img {
@@ -43,7 +45,6 @@ body {
     padding-left: 25px;
     padding-top: 14px;
     height: auto;
-    width: auto;
     padding-right: 30px;
     /* padding: 16px; */
 }
@@ -56,7 +57,6 @@ body {
 .icons-redes-sociais ul li {
     display: inline-block;
     float: left;
-    width: 3%;
     position: relative;
     padding: 10px;
 }
@@ -86,5 +86,8 @@ body {
     background-color: #6fe66c;
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
