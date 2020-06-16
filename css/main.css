@@ -1,97 +1,63 @@
-@font-face {
-    font-family: "Henrik-Regular";
-    src: url('/fonts/Henrik-Regular.otf');
-}
-
-
-/* Reseta todas as informações de estilização */
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-}
-
-li {
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
+    font-size: 1rem;
+    font-family: Arial;
 }
 
-html,
-body {
-    height: 100vh;
-    font-family: "Source Sans Pro";
-    text-rendering: optimizelegibility;
-    -webkit-font-smoothing: antialiased;
-    background-color: #14181d;
+a {
+    text-decoration: none;
+    color: white;
 }
 
 header {
-    /* background-color: gray; */
-}
-
-header .container {
+    background-color: gray;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    /* justify-content: space-between; */
-    width: 100vw;
-    margin: auto;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
-header img.logo-1 {
-    width: 70px;
-    margin-left: 50px;
-    padding: 15px 15px;
+nav {
+    display: flex;
 }
 
-header .logo-nome img {
-    margin-left: 30px;
-    width: 150px;
-    text-align: start;
+.logos-left {
+    display: flex
 }
 
-header .icons-redes-sociais {
-    margin-left: 30px;
-    vertical-align: middle;
-    text-align: start;
+.logos-left li {
+    margin-left: 16px;
+    padding: 5px;
 }
 
-header .icons-redes-sociais ul li {
-    display: inline-block;
-    position: relative;
+.logos-left li a {
+    display: block;
+}
+
+.redes-sociais ul {
+    display: flex;
+    padding-left: 16px;
+}
+
+.redes-sociais ul li {
+    padding: 5px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 16px;
+}
+
+.menu li a {
+    display: block;
     padding: 10px;
-}
-
-header .content-links {
-    display: inline;
-    padding: 16px;
-    float: right;
-}
-
-header .content-links ul li {
-    display: inline-block;
-    position: relative;
-    padding: 10px;
-}
-
-nav.content-links a {
-    color: white;
-    text-decoration: none;
-    padding: 16px;
-}
-
-nav.content-links a:hover {
-    color: #6fe66c;
-    /* background-color: black; */
-}
-
-.idioma {
-    display: inline-block;
-    padding: 16px;
-}
-
-.idioma a {
-    background-color: #6fe66c;
-    color: white;
-    text-decoration: none;
 }
