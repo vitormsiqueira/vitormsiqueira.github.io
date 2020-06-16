@@ -3,75 +3,84 @@
     src: url('/fonts/Henrik-Regular.otf');
 }
 
+
+/* Reseta todas as informações de estilização */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+li {
+    list-style: none;
+}
+
+html,
 body {
+    height: 100vh;
+    font-family: "Source Sans Pro";
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
     background-color: #14181d;
-    width: auto;
-    height: auto;
 }
 
-main {
-    /* width: 980px; */
+header {
+    /* background-color: gray; */
 }
 
-.header-1 {
-    width: 100%;
-    height: 56px;
+header .container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100vw;
+    margin: auto;
 }
 
-.logo-hex {
-    /* background-color: purple; */
-    display: inline-block;
-    float: left;
-    padding-left: 25px;
-    width: 5%;
-    /* padding: 16px; */
+header img.logo-1 {
+    width: 70px;
+    margin-left: 50px;
+    padding: 15px 15px;
 }
 
-.logo-hex img {
-    max-width: 55px;
-    max-height: 55px;
-    height: auto;
+header .logo-nome img {
+    margin-left: 30px;
+    width: 150px;
+    text-align: start;
 }
 
-.logo-nome ul li {
-    display: inline-block;
-    float: left;
-    width: 20%;
-}
-
-.logo-nome img {
-    max-height: 35px;
-    padding-left: 25px;
-    padding-top: 14px;
-    height: auto;
-    padding-right: 30px;
-    /* padding: 16px; */
-}
-
-.icons-redes-sociais {
+header .icons-redes-sociais {
+    margin-left: 30px;
     vertical-align: middle;
-    text-align: center;
+    text-align: start;
 }
 
-.icons-redes-sociais ul li {
+header .icons-redes-sociais ul li {
     display: inline-block;
-    float: left;
     position: relative;
     padding: 10px;
 }
 
-.content-links {
-    display: inline-block;
+header .content-links {
+    display: inline;
     padding: 16px;
+    float: right;
 }
 
-.content-links a {
+header .content-links ul li {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+
+nav.content-links a {
     color: white;
     text-decoration: none;
     padding: 16px;
 }
 
-.content-links a:hover {
+nav.content-links a:hover {
     color: #6fe66c;
     /* background-color: black; */
 }
@@ -85,8 +94,4 @@ main {
     background-color: #6fe66c;
     color: white;
     text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
 }
