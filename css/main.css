@@ -51,7 +51,7 @@ a {
 }
 
 header {
-    /* background-color: #14181d; */
+    background-color: #14181d;
     position: fixed;
     left: 0;
     top: 0;
@@ -168,5 +168,16 @@ div.more-posts {
 .more-posts li a {
     font-family: 'Rationale', sans-serif;
     font-size: 24px;
+    color: #67d665;
+}
+
+.who-am-i {
+    height: 80vh;
+    width: auto;
+}
+
+.who-am-i p {
+    font-family: 'Rationale', sans-serif;
+    font-size: 74px;
     color: #67d665;
 }
