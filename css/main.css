@@ -1,4 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Quicksand:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300;400;500&display=swap');
+
+/* FONTES
+'Quicksand', sans-serif;
+'Fjala', sans-serif;
+'Bebas Neue', cursive; 
+'Voltaire', sans-serif;
+'Kelly Slab', cursive;
+'Share Tech', sans-serif;
+'Rationale', sans-serif;
+'Encode Sans Semi Expanded', sans-serif;
+*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,7 +40,9 @@ p {
     padding: 0px;
     list-style: none;
     font-size: 1rem;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-weight: lighter;
 }
 
 a {
@@ -29,7 +51,7 @@ a {
 }
 
 header {
-    background-color: #14181d;
+    /* background-color: #14181d; */
     position: fixed;
     left: 0;
     top: 0;
@@ -48,12 +70,12 @@ nav {
 }
 
 nav li img {
-    width: 4vw;
+    width: 50px;
     align-items: center;
 }
 
 nav li a img {
-    width: 12vw;
+    width: 140px;
 }
 
 .logos-left {
@@ -76,7 +98,7 @@ nav li a img {
 }
 
 .redes-sociais ul li a img {
-    width: 1.6vw;
+    width: 20px;
 }
 
 .menu {
@@ -92,7 +114,7 @@ nav li a img {
     padding: 10px;
 }
 
-.menu li .on {
+.on {
     background-color: #67d665;
 }
 
@@ -105,15 +127,46 @@ nav li a img {
 }
 
 .grid1 img {
-    width: 30vw;
+    width: 20vw;
+}
+
+.my-name {
+    padding-bottom: 50px;
 }
 
 .my-name p {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .my-name .subtitle {
     font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.blog-footer p {
+    margin: 0px;
+    font-family: 'Rationale', sans-serif;
+    font-size: 24px;
+    color: #67d665;
+}
+
+.blog-footer .first {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.blog-footer .sec {
     margin-top: 15px;
+    font-size: 18px;
+}
+
+div.more-posts {
+    align-items: center;
+}
+
+.more-posts li a {
+    font-family: 'Rationale', sans-serif;
+    font-size: 24px;
+    color: #67d665;
 }
