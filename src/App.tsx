@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import * as C from './App.styles';
+import logoBack from './svgs/logo-vms-gradient.png';
+import { Header } from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <C.Container>
+      <Header/>
+
+      <C.SectionPage>
+        <C.Home>
+          <C.Title>
+            <span className="work">I'm</span>
+            <span className="poppins"> Vitor Siqueira</span>
+            <span className="work">,</span>
+            <br/><span className="work"> a</span>
+            <span className="poppins"> creative</span>
+            <span className="work"> full-stack developer</span>
+          </C.Title>
+        </C.Home>
+      </C.SectionPage>
+
+      <C.SectionPage>
+        <C.Home>
+          ...
+        </C.Home>
+      </C.SectionPage>
+
+    </C.Container>
+    
   );
 }
 
