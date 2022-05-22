@@ -3,11 +3,6 @@ import { ReactComponent as LogoHeader } from '../../svgs/logo-vms-header.svg';
 import { ReactComponent as English } from '../../svgs/english.svg';
 import { ReactComponent as Moon } from '../../svgs/moon.svg';
 
-// type Props = {
-//     active: boolean,
-// }
-
-
 export const Header = () => {
     return (
         <C.Container>
